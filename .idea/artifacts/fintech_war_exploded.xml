@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="fintech_war_exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/fintech_war_exploded</output-path>
+    <root id="root">
+      <element id="artifact" artifact-name="fintech:war exploded" />
+    </root>
+  </artifact>
+</component>
