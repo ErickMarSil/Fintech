@@ -1,0 +1,97 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.card-gradient {
+    background: linear-gradient(145deg, #0d3b26, #004d26);
+    color: white;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.card-number {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-validade,
+.card-cvc {
+    font-size: 0.9rem;
+}
+
+.card-name {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Responsividade */
+.carousel {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #0d3b26;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-circle-2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-circle img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Ajuste da largura e centralização */
+.card-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.icon-section {
+    padding-top: 30px;
+}
+
+.transaction-card {
+    background-color: #FFB8B8;
+    border-radius: 15%;
+}
+
+.money {
+    color: #0d3b26;
+}
+
+.loss {
+    color: #ff0000;
+}
+
+.vh-auto {
+    height: 130px;
+}

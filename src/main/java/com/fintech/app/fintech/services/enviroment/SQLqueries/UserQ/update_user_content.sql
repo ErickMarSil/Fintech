@@ -1,0 +1,1 @@
+UPDATE Users SET first_name = ?, last_name = ?, password = ?, nm_phone = ? WHERE email = ?;
