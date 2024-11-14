@@ -2,6 +2,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+src/main/java/com/fintech/app/fintech/services/enviroment/.env
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
@@ -33,6 +34,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
 
 ### Mac OS ###
 .DS_Store

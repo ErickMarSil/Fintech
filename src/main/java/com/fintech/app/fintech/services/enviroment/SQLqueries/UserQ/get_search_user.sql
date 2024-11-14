@@ -1,1 +1,1 @@
-SELECT * FROM Users WHERE first_name LIKE ? OR last_name LIKE ?;
+SELECT * FROM Users WHERE first_name LIKE ? AND last_name LIKE ?;
